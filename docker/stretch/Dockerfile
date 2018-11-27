@@ -1,5 +1,5 @@
-FROM debian:9
-LABEL Description="Debian development environment for Qbs with Qt 5.9 and various dependencies for testing Qbs modules and functionality"
+FROM ubuntu:xenial
+LABEL Description="Ubuntu development environment for Qbs with Qt 5.9 and various dependencies for testing Qbs modules and functionality"
 
 # Dependencies of the Qt offline installer
 RUN apt-get -y update && apt-get install -y \
